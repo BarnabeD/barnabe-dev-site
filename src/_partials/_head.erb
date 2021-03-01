@@ -7,7 +7,7 @@
     <%= page.data.title %> | <%= metadata.description %>
   <% end %>
 </title>
-<meta name="description" content="{{ metadata.description }}" />
+<meta name="description" content="<%= metadata.description %>" />
 
 <link rel="stylesheet" href="<%= webpack_path :css %>" />
 <script src="<%= webpack_path :js %>" defer></script>
