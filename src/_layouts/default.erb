@@ -7,7 +7,7 @@
     <%= render "navbar", metadata: site.metadata, page: page %>
     <main>
       <%= yield %>
-      <%= page.data.page_class %>
+      <h1><%= page.data.layout %></h1>
     </main>
     <%= render "footer", metadata: site.metadata %>
   </body>

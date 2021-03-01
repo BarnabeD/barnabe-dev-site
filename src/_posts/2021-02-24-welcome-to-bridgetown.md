@@ -15,12 +15,12 @@ Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit number
 
 Bridgetown also offers powerful support for code snippets:
 
-<!-- ```ruby
+```ruby
 def print_hi(name)
   puts "Hi, #{name}"
 end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
-```` -->
+````
 
 Check out the [Bridgetown docs](https://bridgetownrb.com/docs/) for more info on how to get the most out of Bridgetown. File all bugs/feature requests at [Bridgetown’s GitHub repo](https://github.com/bridgetownrb/bridgetown). If you have questions, you can ask them on [Bridgetown Discussions on GitHub](https://github.com/bridgetownrb/bridgetown/discussions).
